@@ -30,6 +30,8 @@ import com.vuforia.samples.SampleApplication.utils.SampleApplication3DModel;
 import com.vuforia.samples.SampleApplication.utils.SampleUtils;
 import com.vuforia.samples.SampleApplication.utils.Teapot;
 import com.vuforia.samples.SampleApplication.utils.Texture;
+import com.vuforia.samples.SampleApplication.utils.QuadMesh;
+
 
 import java.io.IOException;
 import java.util.Vector;
@@ -56,6 +58,7 @@ public class ImageTargetRenderer implements GLSurfaceView.Renderer, SampleAppRen
     private int texSampler2DHandle;
 
     private Teapot mTeapot;
+    private QuadMesh mQuadMesh;
 
     private float kBuildingScale = 0.012f;
     private SampleApplication3DModel mBuildingsModel;
@@ -106,7 +109,6 @@ public class ImageTargetRenderer implements GLSurfaceView.Renderer, SampleAppRen
         // Call Vuforia function to (re)initialize rendering after first use
         // or after OpenGL ES context was lost (e.g. after onPause/onResume):
         vuforiaAppSession.onSurfaceCreated();
-
         mSampleAppRenderer.onSurfaceCreated();
     }
     
@@ -160,6 +162,7 @@ public class ImageTargetRenderer implements GLSurfaceView.Renderer, SampleAppRen
 
         if(!mModelIsLoaded) {
             mTeapot = new Teapot();
+            mQuadMesh = new QuadMesh();
 
             try {
                 mBuildingsModel = new SampleApplication3DModel();
