@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\development\COMP550\VuforiaSamples-6-2-10\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="24161cfbaebca28e73362a10fa69e9ebd8c179ca">
+        <dex dex="D:\development\COMP550\VuforiaSamples-6-2-10\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_c21dfd114262623b75a2e86819fd461ef5e7a49b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\development\COMP550\VuforiaSamples-6-2-10\libs\Vuforia.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="177fc09d70ae5f94117c9ea1a7b3bec42c9d48b4">
+        <dex dex="D:\development\COMP550\VuforiaSamples-6-2-10\app\build\intermediates\transforms\dex\debug\folders\1000\2\Vuforia_49ac3bc75cea09f5802c12483ecfddcdc5da35ed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\development\COMP550\VuforiaSamples-6-2-10\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="D:\development\COMP550\VuforiaSamples-6-2-10\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_592fbede4be431163fbe506f743c1c986069ab8e\classes.dex" />
+    </item>
+
+</items>
