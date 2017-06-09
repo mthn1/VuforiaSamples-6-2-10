@@ -78,7 +78,7 @@ public class ImageTargets extends Activity implements SampleApplicationControl,
     
     // The textures we will use for rendering:
     private Vector<Texture> mTextures;
-    
+
     private boolean mSwitchDatasetAsap = false;
     private boolean mFlash = false;
     private boolean mContAutofocus = false;
@@ -168,6 +168,8 @@ public class ImageTargets extends Activity implements SampleApplicationControl,
     
     private void loadTextures()
     {
+        mTextures.add(Texture.loadTextureFromApk("goldTexture.png",
+                getAssets()));
         mTextures.add(Texture.loadTextureFromApk("TextureTeapotBrass.png",
             getAssets()));
         mTextures.add(Texture.loadTextureFromApk("TextureTeapotBlue.png",

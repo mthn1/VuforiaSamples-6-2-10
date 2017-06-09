@@ -28,9 +28,9 @@ import com.vuforia.samples.SampleApplication.utils.CubeShaders;
 import com.vuforia.samples.SampleApplication.utils.LoadingDialogHandler;
 import com.vuforia.samples.SampleApplication.utils.SampleApplication3DModel;
 import com.vuforia.samples.SampleApplication.utils.SampleUtils;
-import com.vuforia.samples.SampleApplication.utils.Teapot;
-import com.vuforia.samples.SampleApplication.utils.Texture;
 import com.vuforia.samples.SampleApplication.utils.GoldBox;
+import com.vuforia.samples.SampleApplication.utils.Texture;
+
 
 
 import java.io.IOException;
@@ -57,7 +57,6 @@ public class ImageTargetRenderer implements GLSurfaceView.Renderer, SampleAppRen
     private int mvpMatrixHandle;
     private int texSampler2DHandle;
 
-    private Teapot mTeapot;
     private GoldBox mGoldBox;
 
     private float kBuildingScale = 0.012f;
@@ -66,7 +65,7 @@ public class ImageTargetRenderer implements GLSurfaceView.Renderer, SampleAppRen
     private boolean mIsActive = false;
     private boolean mModelIsLoaded = false;
 
-    private static final float OBJECT_SCALE_FLOAT = 0.003f;
+    private static final float OBJECT_SCALE_FLOAT = 0.1f;
 
 
     public ImageTargetRenderer(ImageTargets activity, SampleApplicationSession session)
@@ -250,10 +249,12 @@ public class ImageTargetRenderer implements GLSurfaceView.Renderer, SampleAppRen
                 GLES20.glUniformMatrix4fv(mvpMatrixHandle, 1, false,
                         modelViewProjection, 0);
 
-                // finally draw the teapot
+                // finally draw the GoldBox
                 GLES20.glDrawElements(GLES20.GL_TRIANGLES,
                         mGoldBox.getNumObjectIndex(), GLES20.GL_UNSIGNED_SHORT,
                         mGoldBox.getIndices());
+                GLES20.glDrawArrays(GLES20.GL_TRIANGLES, 0, mGoldBox.getNumObjectIndex());
+
 
                 // disable the enabled arrays
                 GLES20.glDisableVertexAttribArray(vertexHandle);

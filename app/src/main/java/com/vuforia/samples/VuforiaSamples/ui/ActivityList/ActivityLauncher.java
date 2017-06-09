@@ -26,10 +26,10 @@ import com.vuforia.samples.VuforiaSamples.R;
 public class ActivityLauncher extends ListActivity
 {
     ////TODO: make hopara top item in launcher list, modify onlistitemclick as well
-    private String mActivities[] = { "Image Targets", "VuMark", "Cylinder Targets",
+    private String mActivities[] = { "Hopara", "Image Targets", "VuMark", "Cylinder Targets",
             "Multi Targets", "User Defined Targets", "Object Reco", "Cloud Reco",
-            "Text Reco", "Virtual Buttons", "Hopara" };
-    
+            "Text Reco", "Virtual Buttons" };
+
     
     @Override
     public void onCreate(Bundle savedInstanceState)
@@ -56,53 +56,53 @@ public class ActivityLauncher extends ListActivity
 
         switch (position)
         {
-            case 9:
+            case 0:
                 intent.putExtra("ACTIVITY_TO_LAUNCH",
                         "app.Hopara.ImageTargets");
                 intent.putExtra("ABOUT_TEXT", "Hopara/IT_about.html");
                 break;
-            case 0:
+            case 1:
                 intent.putExtra("ACTIVITY_TO_LAUNCH",
                     "app.ImageTargets.ImageTargets");
                 intent.putExtra("ABOUT_TEXT", "ImageTargets/IT_about.html");
                 break;
-            case 1:
+            case 2:
                 intent.putExtra("ACTIVITY_TO_LAUNCH",
                         "app.VuMark.VuMark");
                 intent.putExtra("ABOUT_TEXT", "VuMark/VM_about.html");
                 break;
-            case 2:
+            case 3:
                 intent.putExtra("ACTIVITY_TO_LAUNCH",
                     "app.CylinderTargets.CylinderTargets");
                 intent.putExtra("ABOUT_TEXT", "CylinderTargets/CY_about.html");
                 break;
-            case 3:
+            case 4:
                 intent.putExtra("ACTIVITY_TO_LAUNCH",
                     "app.MultiTargets.MultiTargets");
                 intent.putExtra("ABOUT_TEXT", "MultiTargets/MT_about.html");
                 break;
-            case 4:
+            case 5:
                 intent.putExtra("ACTIVITY_TO_LAUNCH",
                     "app.UserDefinedTargets.UserDefinedTargets");
                 intent.putExtra("ABOUT_TEXT",
                     "UserDefinedTargets/UD_about.html");
                 break;
-            case 5:
+            case 6:
                 intent.putExtra("ACTIVITY_TO_LAUNCH",
                     "app.ObjectRecognition.ObjectTargets");
                 intent.putExtra("ABOUT_TEXT", "ObjectRecognition/OR_about.html");
                 break;
-            case 6:
+            case 7:
                 intent.putExtra("ACTIVITY_TO_LAUNCH",
                     "app.CloudRecognition.CloudReco");
                 intent.putExtra("ABOUT_TEXT", "CloudReco/CR_about.html");
                 break;
-            case 7:
+            case 8:
                 intent.putExtra("ACTIVITY_TO_LAUNCH",
                     "app.TextRecognition.TextReco");
                 intent.putExtra("ABOUT_TEXT", "TextReco/TR_about.html");
                 break;
-            case 8:
+            case 9:
                 intent.putExtra("ACTIVITY_TO_LAUNCH",
                     "app.VirtualButtons.VirtualButtons");
                 intent.putExtra("ABOUT_TEXT", "VirtualButtons/VB_about.html");
