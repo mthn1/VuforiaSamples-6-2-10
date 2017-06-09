@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\build\\intermediates\\res\\merged\\release\\anim\\bottom_down.xml",
+        "source": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\src\\main\\res\\anim\\bottom_down.xml"
+    },
+    {
+        "merged": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\build\\intermediates\\res\\merged\\release\\anim\\bottom_up.xml",
+        "source": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\src\\main\\res\\anim\\bottom_up.xml"
+    }
+]

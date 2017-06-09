@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\build\\intermediates\\res\\merged\\release\\drawable\\close_button_background.xml",
+        "source": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\src\\main\\res\\drawable\\close_button_background.xml"
+    },
+    {
+        "merged": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\build\\intermediates\\res\\merged\\release\\drawable\\camera_button_background.xml",
+        "source": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\src\\main\\res\\drawable\\camera_button_background.xml"
+    },
+    {
+        "merged": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_camera_normal.png",
+        "source": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\src\\main\\res\\drawable\\icon_camera_normal.png"
+    },
+    {
+        "merged": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_camera_pressed.png",
+        "source": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\src\\main\\res\\drawable\\icon_camera_pressed.png"
+    },
+    {
+        "merged": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\build\\intermediates\\res\\merged\\release\\drawable\\button_close_normal.png",
+        "source": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\src\\main\\res\\drawable\\button_close_normal.png"
+    },
+    {
+        "merged": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\build\\intermediates\\res\\merged\\release\\drawable\\new_target_button_background.xml",
+        "source": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\src\\main\\res\\drawable\\new_target_button_background.xml"
+    },
+    {
+        "merged": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\build\\intermediates\\res\\merged\\release\\drawable\\scanline.png",
+        "source": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\src\\main\\res\\drawable\\scanline.png"
+    },
+    {
+        "merged": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_plus_pressed.png",
+        "source": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\src\\main\\res\\drawable\\icon_plus_pressed.png"
+    },
+    {
+        "merged": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_02.png",
+        "source": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\src\\main\\res\\drawable\\icon_02.png"
+    },
+    {
+        "merged": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\build\\intermediates\\res\\merged\\release\\drawable\\logo.png",
+        "source": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
+        "merged": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\build\\intermediates\\res\\merged\\release\\drawable\\card_info.png",
+        "source": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\src\\main\\res\\drawable\\card_info.png"
+    },
+    {
+        "merged": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\build\\intermediates\\res\\merged\\release\\drawable\\button_close_pressed.png",
+        "source": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\src\\main\\res\\drawable\\button_close_pressed.png"
+    },
+    {
+        "merged": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\build\\intermediates\\res\\merged\\release\\drawable\\reticle.png",
+        "source": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\src\\main\\res\\drawable\\reticle.png"
+    },
+    {
+        "merged": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_01.png",
+        "source": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\src\\main\\res\\drawable\\icon_01.png"
+    },
+    {
+        "merged": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\build\\intermediates\\res\\merged\\release\\drawable\\vuforia_splash.png",
+        "source": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\src\\main\\res\\drawable\\vuforia_splash.png"
+    },
+    {
+        "merged": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\build\\intermediates\\res\\merged\\release\\drawable\\bg00.png",
+        "source": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\src\\main\\res\\drawable\\bg00.png"
+    },
+    {
+        "merged": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_03.png",
+        "source": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\src\\main\\res\\drawable\\icon_03.png"
+    },
+    {
+        "merged": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\build\\intermediates\\res\\merged\\release\\drawable\\bg70.png",
+        "source": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\src\\main\\res\\drawable\\bg70.png"
+    },
+    {
+        "merged": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_plus_normal.png",
+        "source": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\src\\main\\res\\drawable\\icon_plus_normal.png"
+    },
+    {
+        "merged": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\build\\intermediates\\res\\merged\\release\\drawable\\round_bg.xml",
+        "source": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\src\\main\\res\\drawable\\round_bg.xml"
+    },
+    {
+        "merged": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon.png",
+        "source": "D:\\development\\COMP550\\VuforiaSamples-6-2-10\\app\\src\\main\\res\\drawable\\icon.png"
+    }
+]
