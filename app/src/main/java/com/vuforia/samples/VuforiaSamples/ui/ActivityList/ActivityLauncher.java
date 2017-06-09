@@ -53,7 +53,7 @@ public class ActivityLauncher extends ListActivity
         
         Intent intent = new Intent(this, AboutScreen.class);
         intent.putExtra("ABOUT_TEXT_TITLE", mActivities[position]);
-         sd
+
         switch (position)
         {
             case 9:
