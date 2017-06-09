@@ -250,9 +250,9 @@ public class ImageTargetRenderer implements GLSurfaceView.Renderer, SampleAppRen
                         modelViewProjection, 0);
 
                 // finally draw the GoldBox
-                GLES20.glDrawElements(GLES20.GL_TRIANGLES,
-                        mGoldBox.getNumObjectIndex(), GLES20.GL_UNSIGNED_SHORT,
-                        mGoldBox.getIndices());
+//                GLES20.glDrawElements(GLES20.GL_TRIANGLES,
+//                        mGoldBox.getNumObjectIndex(), GLES20.GL_UNSIGNED_SHORT,
+//                        mGoldBox.getIndices());
                 GLES20.glDrawArrays(GLES20.GL_TRIANGLES, 0, mGoldBox.getNumObjectIndex());
 
 
