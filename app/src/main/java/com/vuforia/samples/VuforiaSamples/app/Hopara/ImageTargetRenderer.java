@@ -30,7 +30,7 @@ import com.vuforia.samples.SampleApplication.utils.SampleApplication3DModel;
 import com.vuforia.samples.SampleApplication.utils.SampleUtils;
 import com.vuforia.samples.SampleApplication.utils.Teapot;
 import com.vuforia.samples.SampleApplication.utils.Texture;
-import com.vuforia.samples.SampleApplication.utils.QuadMesh;
+import com.vuforia.samples.SampleApplication.utils.GoldBox;
 
 
 import java.io.IOException;
@@ -58,7 +58,7 @@ public class ImageTargetRenderer implements GLSurfaceView.Renderer, SampleAppRen
     private int texSampler2DHandle;
 
     private Teapot mTeapot;
-    private QuadMesh mQuadMesh;
+    private GoldBox mGoldBox;
 
     private float kBuildingScale = 0.012f;
     private SampleApplication3DModel mBuildingsModel;
@@ -161,8 +161,7 @@ public class ImageTargetRenderer implements GLSurfaceView.Renderer, SampleAppRen
             "texSampler2D");
 
         if(!mModelIsLoaded) {
-            mTeapot = new Teapot();
-            mQuadMesh = new QuadMesh();
+            mGoldBox = new GoldBox();
 
             try {
                 mBuildingsModel = new SampleApplication3DModel();
@@ -234,9 +233,9 @@ public class ImageTargetRenderer implements GLSurfaceView.Renderer, SampleAppRen
 
             if (!mActivity.isExtendedTrackingActive()) {
                 GLES20.glVertexAttribPointer(vertexHandle, 3, GLES20.GL_FLOAT,
-                        false, 0, mTeapot.getVertices());
+                        false, 0, mGoldBox.getVertices());
                 GLES20.glVertexAttribPointer(textureCoordHandle, 2,
-                        GLES20.GL_FLOAT, false, 0, mTeapot.getTexCoords());
+                        GLES20.GL_FLOAT, false, 0, mGoldBox.getTexCoords());
 
                 GLES20.glEnableVertexAttribArray(vertexHandle);
                 GLES20.glEnableVertexAttribArray(textureCoordHandle);
@@ -253,8 +252,8 @@ public class ImageTargetRenderer implements GLSurfaceView.Renderer, SampleAppRen
 
                 // finally draw the teapot
                 GLES20.glDrawElements(GLES20.GL_TRIANGLES,
-                        mTeapot.getNumObjectIndex(), GLES20.GL_UNSIGNED_SHORT,
-                        mTeapot.getIndices());
+                        mGoldBox.getNumObjectIndex(), GLES20.GL_UNSIGNED_SHORT,
+                        mGoldBox.getIndices());
 
                 // disable the enabled arrays
                 GLES20.glDisableVertexAttribArray(vertexHandle);
